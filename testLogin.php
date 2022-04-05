@@ -17,22 +17,28 @@
         //print_r('<br>');
         //print_r('Senha: ' . $senha);
 
-        $sql = "SELECT * FROM usuario WHERE email = '$email' AND senha = '$senha' ";
+        $sql = "SELECT * FROM aluno WHERE aluno_email = '$email' AND aluno_senha = '$senha' ";
 
         $result = $conexao->query($sql);
 
         //print_r($sql);
         //print_r($result);
 
-        if(mysquli_num_rows($result) <1){
+        if(mysqli_num_rows($result) <1){
+            
+            //print_r('Não existe');
             unset($_SESSION['email']);
             unset($_SESSION['senha']);
             header('Location: login.php'); //Se os dados não forem compativeis
+            
         } else{
+            //print_r('Existe');
+            
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
-            print_r('Location: sessaoUsuario.php'); // se os dados forem compativeis com o banco de dados
+            header('Location: sessaoUsuario.php'); // se os dados forem compativeis com o bd
             //Assim, vai iniciar sessão
+            
         }
 
     }else{

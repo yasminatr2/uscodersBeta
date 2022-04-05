@@ -6,7 +6,7 @@
     $dbName = 'uscoders';
 
     
-    $conexao = new msqli($dbhost, $dbUserName, $dbPassword, $dbName);
+    $conexao = new mysqli($dbhost, $dbUserName, $dbPassword, $dbName);
 
     /*
     if($conexao->connect_errno){

@@ -1,14 +1,16 @@
 <?php
+
     session_start();
-    print_r($_SESSION);
+    //print_r($_SESSION);
     //inicio de verificação do email e senha
-    if(!isset($_SESSION['email'] == true) and (!isset($_SESSION['senha'] == true))
+    if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
     {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
         header('Location: login.php');
     }
     $useLogado = $_SESSION['email']; //email do usuário na sessão
+    
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,7 +28,6 @@
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
-        color:  rgb(61, 3, 61);
         font-family: 'sarala';
 
     }
@@ -34,12 +35,21 @@
     body{
         font-size: 100%;
         background: linear-gradient(68.15deg, rgb(61, 3, 61), rgb(9, 9, 126));
+        color:  white;
+    }
+
+    .btnSair{
+        color:  white;
     }
 
     </style>
 </head>
 <body>
-    <h1>PARABÉNS: Iniciou sessão, finalmente kkkk</h1>
+    <div>
     <a href="btnLogout.php" class="btnSair">Sair</a>
+    </div>
+    <?php
+        echo"<h1>Bem vindo, $useLogado</h1>";
+    ?>
 </body>
 </html>

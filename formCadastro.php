@@ -15,16 +15,16 @@
 
         $nome = $_POST['nome'];
         $email = $_POST['email'];
-        $senha = $_POST['senha'];
+        $senha = $_POST['senha']; //faltava acrescentar senha como parametro
         $data_nasci = $_POST['data_nascimento'];
         $telefone = $_POST['telefone'];
         $cpf = $_POST['cpf'];
         $rg = $_POST['rg'];
-        $login = $_POST['login'];
-
+        $login = $_POST['login']; //pelo visto, não vamos precisar
+        //Obs.: $Login é mesmo desnecessário pra ter no cadastro
         $result = mysqli_query($conexao, 
-        "INSERT INTO aluno (aluno_nome, aluno_email, aluno_dtnasc, aluno_tel, aluno_cpf, aluno_rg)
-        VALUES ('$nome', '$email', '$data_nasci', '$telefone', '$cpf', '$rg')");
+        "INSERT INTO aluno (aluno_nome, aluno_email, aluno_senha, aluno_dtnasc, aluno_tel, aluno_cpf, aluno_rg)
+        VALUES ('$nome', '$email', '$senha','$data_nasci', '$telefone', '$cpf', '$rg')");
 
         header('location: login.php'); //depois de preencher o form, deve redirecionar para a tela: login.php
     }
@@ -162,12 +162,6 @@
                     <!--rg-->
                     <input type="text" name="rg" id="rg" class="inputUser" required>
                     <label id="rg" class="labelInput">RG</label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <!--login-->
-                    <input type="email" name="login" id="login" class="inputUser" required>
-                    <label id="login" class="labelInput">Login</label>
                 </div>
                 <br>
                 <input type="submit" name="submit" id="submit">
