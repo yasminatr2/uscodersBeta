@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Plataforma Web de cursos">
-    
-    <title>Us Coders | home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="shortcut icon" href="img/UsCodersIcon.ico" type="image/x-icon">
+    <title>Us Coders | Home</title>
 
     <style>
         /* fonte do site*/
@@ -61,7 +63,7 @@
         flex-direction: row;
         padding:15px;
         width: 100vw;
-        height:15vh;
+        height:13vh;
     }
     /* Início da estilização do MENU RESPONSIVO classe: topnav */
     /* Remove as margens, define tamanho do menu para 100%, e adiciona uma cor de fundo */
@@ -73,7 +75,7 @@
 		line-height: 4em;
         width: 65vw;
         padding:15px;
-        height:15vh;
+        height:13vh;
         display: flex;
         align-items: center;
         align-content:flex-end;
@@ -202,9 +204,27 @@
         left: 0;
         right: 0;
         width: 100vw;
-        height:15vh;
+        height:12vh;
         padding: 15px;
     }
+
+    .btnViewCursos{
+        background:linear-gradient(68.15deg, rgb(61, 3, 61), rgb(9, 9, 126));
+        border-radius: 5px;
+        color:white;
+        padding:10px;
+        margin:5px;
+
+    }.btnViewCursos:hover{
+        opacity:65%;
+    }
+    #txth5{
+        margin-top: 50px;
+    }
+   #slide{
+       margin-left: 50vh;
+
+   }
 
     </style>
 </head>
@@ -219,7 +239,8 @@
                     <li><a class="navegacao-item" href="#sobre">Sobre</a></li>
                     <li><a class="navegacao-item" href="#contato">Contato</a></li>
                    
-                    <li><a class="navegacao-item" href="login.php">Login</a></li>
+                    <li><a class="navegacao-item uil uil-user" href="login.php">Login</a></li>
+                    </i>
                     <li><a class="navegacao-item" href="formCadastro.php">Cadastre-se</a></li>
 
                     <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
@@ -227,101 +248,88 @@
             </nav>
     </header>
     <!-- conteudo principal do site (cursos e sobre)-->
+
     <main class="conteudo">
         <div class="conteudo-box">
             <!--cursos-->
             <section class="conteudo-cursos" id="cursos">
-                <h2>Nossos Cursos</h2>
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)
-                Aqui ficará os "cursos" com slides do js (podemos usar o bootstap)s
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/imgAngular.jpg" id ="slide" class="d-block w-40"  alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h4>Nossos Cursos</h4>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+        <h5>CURSO DE ANGULAR</h5>
+        <p>Aprenda a programar hoje mesmo!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/imgjava.jpg" id ="slide" class="d-block w-40" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CURSO DE JAVASCRIPT</h5>
+        <p>Já pensou em programar em javascript e construir diversos sites? Não perca essa chance.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/imghtml.jpg" id ="slide" class="d-block w-40" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CURSO DE HTML 5</h5>
+        <p>O que faz a construção de um site? HTML5! se inscreva.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+                <a class="btnViewCursos" href="ViewCursos.php">Veja todos os cursos</a>
             </section>
+
             <br>
             <hr>
             <br>
             <!--sobre-->
             <section class="conteudo-sobre" id="sobre">
                 <h2>Sobre nós</h2>
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
-                Aqui vamos colocar o texto "sobre" a Us Coders  ex:
-                A Us Coders foi fundada em 2022 com objtivo de... 
-                tipo isso aí kkk A Us Coders foi fundada em 2022 com objetivo de... 
-                tipo isso aí kkk
+                A Us Coders foi fundada em 2022 com objetivo de criar uma plataforma web de cursos 100% gratuitos referentes a modalidade EAD - Ensino a distancia. 
+              
+
             </section>
         </div>
     </main>
     <!--rodapé do site (parte do contato)-->
     <footer class="rodape" id="contato">
-        <h2>Contate-nos</h2>
+        <h3> <i class="uil uil-envelope-upload"></i>Contate-nos</h3>
         <h3>&copy Uscoders</h3>
-        <h4>Acrescentar depois (apena estética mesmo pro rodapé)</h4>
+        <h4><i class="uil uil-instagram-alt"></i><i class="uil uil-facebook"></i>siga-nos</h4>
     </footer>
-    <script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+
+
         /* Quando o usuário clica no Ícone, 
         abre novamente o Menu só que desta vez com a formatação que definimos no media screen */
 		function myFunction() {
@@ -329,6 +337,7 @@
 		}
         /*OBS: Esta função deverá ser adicionada dentro de um Script na sua página HTML, 
         ou dentro de uma chama de arquivo .js*/
+      
     </script>
 </body>
 </html>

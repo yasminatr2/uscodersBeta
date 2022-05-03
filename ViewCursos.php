@@ -7,6 +7,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link rel="shortcut icon" href="img/UsCodersIcon.ico" type="image/x-icon">
 <title>Us Coders | Cursos</title>
 <style>
     
@@ -78,7 +79,7 @@
 
 <div class="container-aba2"></div>
 
-<a href="home.php" ><img src="img/imgvoltar.jpg"  width="2%"></i></a>
+<a href="sessaoUsuario.php" ><img src="img/imgvoltar.jpg"  width="2%"></i></a>
 
 
 </div>
@@ -94,7 +95,7 @@
 aprendizado sobre a linguagem de marcação HTML
 (HyperText Markup Language) </p>
 
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
      
         <hr>
       <p>
@@ -134,7 +135,7 @@ aprendizado sobre a linguagem de marcação HTML
         <p class="card-text">O curso de CSS (Cascading Style Sheets) ajudará na
 estilização de suas páginas Web, permitindo uma melhor apresentação
 visual.</p>
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
            
         <hr>
       <p>
@@ -169,7 +170,7 @@ visual.</p>
         <img src="img/imgjava.jpg" width="100%">
         <p class="card-text">O curso de JavaScript permite a inserção de itens complexos e
 interativos no site JavaScript é uma das três principais tecnologias da World Wide Web..</p>
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
 
         <hr>
       <p>
@@ -203,7 +204,7 @@ interativos no site JavaScript é uma das três principais tecnologias da World 
         <img src="img/imgphp.jpg" width="100%">
         <p class="card-text">Com o curso de PHP, você consegue coletar dados de formulários,
 receber cookies e outros conteúdos dinâmicos.</p>
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
         <hr>
       <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -235,7 +236,7 @@ receber cookies e outros conteúdos dinâmicos.</p>
         <h5 class="card-title">Curso C++</h5>
         <img src="img/imgC.jpg" width="100%">
         <p class="card-text">C++ é uma linguagem de programação compilada multi-paradigma e de uso geral.</p>
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
         <hr>
       <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -269,7 +270,7 @@ receber cookies e outros conteúdos dinâmicos.</p>
         
         <p class="card-text">Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript </p>
         
-        <a href="cursoHtml.php" class="btn btn-success">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-success">Acessar curso</a>
         <hr>
       <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
