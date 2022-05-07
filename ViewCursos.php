@@ -135,7 +135,7 @@ aprendizado sobre a linguagem de marcação HTML
         <p class="card-text">O curso de CSS (Cascading Style Sheets) ajudará na
 estilização de suas páginas Web, permitindo uma melhor apresentação
 visual.</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled">Curso Indisponivel</a>
            
         <hr>
       <p>
@@ -170,7 +170,7 @@ visual.</p>
         <img src="img/imgjava.jpg" width="100%">
         <p class="card-text">O curso de JavaScript permite a inserção de itens complexos e
 interativos no site JavaScript é uma das três principais tecnologias da World Wide Web..</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Curso Indisponivel</a>
 
         <hr>
       <p>
@@ -204,7 +204,7 @@ interativos no site JavaScript é uma das três principais tecnologias da World 
         <img src="img/imgphp.jpg" width="100%">
         <p class="card-text">Com o curso de PHP, você consegue coletar dados de formulários,
 receber cookies e outros conteúdos dinâmicos.</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled">Curso Indisponivel</a>
         <hr>
       <p>
       <a class="btn btn-primary disabled" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -236,7 +236,7 @@ receber cookies e outros conteúdos dinâmicos.</p>
         <h5 class="card-title">Curso C++</h5>
         <img src="img/imgC.jpg" width="100%">
         <p class="card-text">C++ é uma linguagem de programação compilada multi-paradigma e de uso geral.</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Curso Indisponivel</a>
         <hr>
       <p>
       <a class="btn btn-primary disabled" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -270,7 +270,7 @@ receber cookies e outros conteúdos dinâmicos.</p>
         
         <p class="card-text">Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript </p>
         
-        <a href="cursoHTML.php" class="btn btn-secondary disabled">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled">Curso Indisponivel</a>
         <hr>
       <p>
       <a class="btn btn-primary disabled" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
