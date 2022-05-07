@@ -264,17 +264,6 @@
     <div class="carousel-item active">
       <img src="img/imgAngular.jpg" id ="slide" class="d-block w-40"  alt="...">
       <div class="carousel-caption d-none d-md-block">
-          <h4>Nossos Cursos</h4>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
           
         <h5>CURSO DE ANGULAR</h5>
         <p>Aprenda a programar hoje mesmo!</p>
