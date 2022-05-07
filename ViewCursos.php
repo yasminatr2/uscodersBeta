@@ -170,7 +170,7 @@ visual.</p>
         <img src="img/imgjava.jpg" width="100%">
         <p class="card-text">O curso de JavaScript permite a inserção de itens complexos e
 interativos no site JavaScript é uma das três principais tecnologias da World Wide Web..</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Acessar curso</a>
 
         <hr>
       <p>
@@ -236,7 +236,7 @@ receber cookies e outros conteúdos dinâmicos.</p>
         <h5 class="card-title">Curso C++</h5>
         <img src="img/imgC.jpg" width="100%">
         <p class="card-text">C++ é uma linguagem de programação compilada multi-paradigma e de uso geral.</p>
-        <a href="cursoHTML.php" class="btn btn-secondary disabled">Acessar curso</a>
+        <a href="cursoHTML.php" class="btn btn-secondary disabled ">Acessar curso</a>
         <hr>
       <p>
       <a class="btn btn-primary disabled" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
