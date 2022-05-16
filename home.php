@@ -7,6 +7,7 @@
     <meta name="description" content="Plataforma Web de cursos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="shortcut icon" href="img/UsCodersIcon.ico" type="image/x-icon">
     <title>Us Coders | Home</title>
 
@@ -117,7 +118,7 @@
         display: none;
         } 
       ul.topnav li.icon {
-	    float: right;/*O ícone será exibido ao lado direito*/
+	    float: right;/O ícone será exibido ao lado direito/
 	    display: inline-block;
 	    }
 	}
@@ -126,7 +127,7 @@
     @media screen and (max-width:680px) {
 		  ul.topnav.responsive {
 			position: absolute;
-			background: rgba(0,0,0,0.95); /*Fundo cinza*/
+			background: rgba(0,0,0,0.95); /Fundo cinza/
 			height:auto;
             padding: 5px;
 			padding-top:15px;
@@ -155,7 +156,9 @@
 			line-height:30px;
 			text-align:center;
 		  }
-	} /*FIM DO MENU RESPONSIVO*/
+
+          
+	} /FIM DO MENU RESPONSIVO/
 
     main{
         
@@ -192,6 +195,10 @@
         height:100%;
     }
 
+    .txtRodape{
+        margin-top:10px;
+    }
+
     .rodape{
         background-color: whitesmoke;
         align-items: center;
@@ -205,8 +212,67 @@
         right: 0;
         width: 100vw;
         height:12vh;
-        padding: 15px;
+        padding: 10px;
+        
     }
+
+        @media only screen and (max-width: 600px) {
+            
+            .conteudo{
+                background-color: whitesmoke;
+                display: flex;
+                border-radius: 20px;
+                flex-direction:column;
+                justify-content: left;
+            }
+
+            .conteudo-box{
+                overflow: auto;
+                border-radius: 20px;
+                padding: 15px;
+                background-color: whitesmoke;
+                width: 98vw;
+                height:60vh;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+            
+            .rodape { 
+                margin-left: 0;
+                flex-wrap:nowrap;
+                align:left;
+            
+             
+            }
+
+            .h3{
+                font-size: 2px;
+            }
+
+            .carousel-inner{
+                width: 100vw;
+                height:100vh;
+                align-items: left;
+                margin-left: 0;
+                flex-direction:left;
+            }
+
+            .carousel-item{
+                width: 100vw;
+                height:100vh;
+                align-items: left;
+                margin-left: 0;
+                flex-direction:left;
+            }
+
+
+            .conteudo-sobre{
+                width: 100vw;
+                height:12vh;
+            }
+        }
+    
 
     .btnViewCursos{
         background:linear-gradient(68.15deg, rgb(61, 3, 61), rgb(9, 9, 126));
@@ -264,17 +330,7 @@
     <div class="carousel-item active">
       <img src="img/imgAngular.jpg" id ="slide" class="d-block w-40"  alt="...">
       <div class="carousel-caption d-none d-md-block">
-          <h4>Nossos Cursos</h4>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+        
           
         <h5>CURSO DE ANGULAR</h5>
         <p>Aprenda a programar hoje mesmo!</p>
@@ -313,17 +369,24 @@
             <!--sobre-->
             <section class="conteudo-sobre" id="sobre">
                 <h2>Sobre nós</h2>
-                A Us Coders foi fundada em 2022 com objetivo de criar uma plataforma web de cursos 100% gratuitos referentes a modalidade EAD - Ensino a distancia. 
-              
+                A Us Coders é uma plataforma web voltada para o Ensino a Distância (EaD), com o objetivo de apresentar cursos online que carregam conceitos básicos de programação e garantir maior autonomia e desenvolvimento em seus estudos.
 
+Por conta da pandemia que vivemos, foi visível a necessidade da criação do projeto para proporcionar uma maior oportunidade aos nossos alunos e visitantes.
+
+Venha conferir nossos cursos!
             </section>
         </div>
     </main>
     <!--rodapé do site (parte do contato)-->
     <footer class="rodape" id="contato">
-        <h3> <i class="uil uil-envelope-upload"></i>Contate-nos</h3>
-        <h3>&copy Uscoders</h3>
-        <h4><i class="uil uil-instagram-alt"></i><i class="uil uil-facebook"></i>siga-nos</h4>
+        <p class="txtRodape"> <i class="uil uil-envelope-upload"></i>Contate-nos</p>
+        <p class="txtRodape">&copy Uscoders</p>
+        <p class="txtRodape"><i></i>siga-nos</p>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://br.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://br.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"
