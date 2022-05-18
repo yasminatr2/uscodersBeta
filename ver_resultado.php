@@ -12,7 +12,7 @@ $useLogado = $_SESSION['email']; //email do usuário na sessão
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -46,7 +46,7 @@ $useLogado = $_SESSION['email']; //email do usuário na sessão
         .btn1 {
             width: 30vh;
             height: 10vh;
-            margin-left: 67px;
+            margin-left: 45px;
             border-radius: 5px;
             font-size: 20px;
         }
